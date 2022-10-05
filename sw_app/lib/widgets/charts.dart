@@ -9,18 +9,12 @@ import '../utils/datatypes.dart';
 import '../utils/constants.dart' as _constants;
 
 
-/*
-class TensorflowService {
-}
- */
-
 class Charts extends StatefulWidget{
   const Charts({Key? key}) : super(key: key);
 
   @override
   _ChartsState createState() => _ChartsState();
 }
-
 
 class _ChartsState extends State<Charts> {
   final _modelFile = 'model.tflite';
